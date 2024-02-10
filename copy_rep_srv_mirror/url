@@ -6,4 +6,4 @@ https://www.postgresql.org/download/linux/redhat/
 
 /tools/download_key.sh
 
-sed -i 's/IP_OR_NAME/10.100.208.41/g' ./*.repo
+sed -i 's/IP_OR_NAME/192.168.1.100/g' ./*.repo
