@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export http_proxy="http://10.100.205.204:3128"
-export https_proxy="http://10.100.205.204:3128"
+export http_proxy="http://IP_OR_NAME:3128"
+export https_proxy="http://IP_OR_NAME:3128"
 
 P_REPO="/usr/share/nginx/html/repos"
 P_LOG="/root/mirror/log"
