@@ -1,0 +1,57 @@
+[zfs]
+name=ZFS on Linux for EL$releasever - dkms
+#baseurl=http://download.zfsonlinux.org/epel/$releasever/$basearch/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs
+enabled=1
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+
+[zfs-kmod]
+name=ZFS on Linux for EL$releasever - kmod
+#baseurl=http://download.zfsonlinux.org/epel/$releasever/kmod/$basearch/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs-kmod
+enabled=0
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+
+[zfs-source]
+name=ZFS on Linux for EL$releasever - Source
+#baseurl=http://download.zfsonlinux.org/epel/$releasever/SRPMS/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs-source
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+
+[zfs-testing]
+name=ZFS on Linux for EL$releasever - dkms - Testing
+#baseurl=http://download.zfsonlinux.org/epel-testing/$releasever/$basearch/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs-testing
+enabled=0
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+
+[zfs-testing-kmod]
+name=ZFS on Linux for EL$releasever - kmod - Testing
+#baseurl=http://download.zfsonlinux.org/epel-testing/$releasever/kmod/$basearch/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs-testing-kmod
+enabled=0
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+
+[zfs-testing-source]
+name=ZFS on Linux for EL$releasever - Testing Source
+#baseurl=http://download.zfsonlinux.org/epel-testing/$releasever/SRPMS/
+baseurl=http://IP_OR_NAME/OL9/zfs/zfs-testing-source
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-openzfs-el-$releasever

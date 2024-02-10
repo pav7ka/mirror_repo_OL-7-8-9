@@ -1,0 +1,17 @@
+[ol7_spacewalk27_client]
+name=Spacewalk Client 2.7 for Oracle Linux 7 (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/spacewalk27/client/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-spacewalk-client-ol7-x86_64/ol7_spacewalk27_client
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_spacewalk26_client]
+name=Spacewalk Client 2.6 for Oracle Linux 7 (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/spacewalk26/client/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-spacewalk-client-ol7-x86_64/ol7_spacewalk26_client
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

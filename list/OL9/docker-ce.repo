@@ -1,0 +1,9 @@
+docker-ce-stable
+#docker-ce-stable-debuginfo
+#docker-ce-stable-source
+#docker-ce-test
+#docker-ce-test-debuginfo
+#docker-ce-test-source
+#docker-ce-nightly
+#docker-ce-nightly-debuginfo
+#docker-ce-nightly-source

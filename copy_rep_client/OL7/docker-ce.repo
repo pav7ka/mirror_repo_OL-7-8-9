@@ -1,0 +1,89 @@
+[docker-ce-stable]
+name=Docker CE Stable - $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/$basearch/stable
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-stable
+enabled=1
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-stable-debuginfo]
+name=Docker CE Stable - Debuginfo $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/debug-$basearch/stable
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-stable-debuginfo
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-stable-source]
+name=Docker CE Stable - Sources
+#baseurl=https://download.docker.com/linux/centos/$releasever/source/stable
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-stable-source
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-test]
+name=Docker CE Test - $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/$basearch/test
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-test
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-test-debuginfo]
+name=Docker CE Test - Debuginfo $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/debug-$basearch/test
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-test-debuginfo
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-test-source]
+name=Docker CE Test - Sources
+#baseurl=https://download.docker.com/linux/centos/$releasever/source/test
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-test-source
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-nightly]
+name=Docker CE Nightly - $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/$basearch/nightly
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-nightly
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-nightly-debuginfo]
+name=Docker CE Nightly - Debuginfo $basearch
+#baseurl=https://download.docker.com/linux/centos/$releasever/debug-$basearch/nightly
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-nightly-debuginfo
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+[docker-ce-nightly-source]
+name=Docker CE Nightly - Sources
+#baseurl=https://download.docker.com/linux/centos/$releasever/source/nightly
+baseurl=http://IP_OR_NAME/OL7/docker-ce/docker-ce-nightly-source
+enabled=0
+gpgcheck=1
+#gpgkey=https://download.docker.com/linux/centos/gpg
+gpgkey=http://IP_OR_NAME/rpm-gpg/gpg
+
+#[centos-extras]
+#name=Centos extras - $basearch
+##baseurl=http://mirror.centos.org/centos/7/extras/x86_64
+#baseurl=http://IP_OR_NAME/CO7/centos7-extras/centos-extras
+#enabled=1
+#gpgcheck=1
+##gpgkey=http://centos.org/keys/RPM-GPG-KEY-CentOS-7
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-CentOS-7

@@ -1,0 +1,35 @@
+[ovirt-4.3]
+name=Latest oVirt 4.3 Release (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/ovirt43/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-ovirt-ol7-x86_64/ovirt-4.3
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+enabled=1
+gpgcheck=1
+
+[ovirt-4.3-extra]
+name=oVirt 4.3 Extra (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/ovirt43/extras/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-ovirt-ol7-x86_64/ovirt-4.3-extra
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+enabled=1
+gpgcheck=1
+
+[ovirt-4.2]
+name=Latest oVirt 4.2 Release (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/ovirt42/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-ovirt-ol7-x86_64/ovirt-4.2
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+enabled=1
+gpgcheck=1
+
+[ovirt-4.2-extra]
+name= oVirt 4.2 Extra (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/ovirt42/extras/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-ovirt-ol7-x86_64/ovirt-4.2-extra
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+enabled=1
+gpgcheck=1

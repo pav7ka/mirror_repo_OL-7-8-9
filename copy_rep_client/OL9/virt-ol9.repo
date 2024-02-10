@@ -1,0 +1,9 @@
+[ol9_kvm_utils]
+name=Oracle Linux 9 KVM Utilities ($basearch)
+#baseurl=https://yum$ociregion.$ocidomain/repo/OracleLinux/OL9/kvm/utils/$basearch/
+baseurl=http://IP_OR_NAME/OL9/virt-ol9/ol9_kvm_utils
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+priority=10
+enabled=0

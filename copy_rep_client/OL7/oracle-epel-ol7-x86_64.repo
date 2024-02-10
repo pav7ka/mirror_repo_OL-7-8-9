@@ -1,0 +1,9 @@
+[ol7_developer_EPEL]
+name=Oracle Linux $releasever EPEL Packages for Development (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_EPEL/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-epel-ol7-x86_64/ol7_developer_EPEL
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+excludepkgs=zabbix*

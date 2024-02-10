@@ -1,0 +1,52 @@
+[ol7_developer_nodejs4]
+name=Oracle Linux $releasever Node.js 4 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_nodejs4/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_developer_nodejs6]
+name=Oracle Linux $releasever Node.js 6 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_nodejs6/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_developer_nodejs8]
+name=Oracle Linux $releasever Node.js 8 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_nodejs8/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_developer_nodejs10]
+name=Oracle Linux $releasever Node.js 10 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_nodejs10/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+priority=20
+
+[ol7_developer_nodejs12]
+name=Oracle Linux $releasever Node.js 12 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/nodejs12/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+priority=20
+
+[ol7_developer_nodejs14]
+name=Oracle Linux $releasever Node.js 14 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/nodejs14/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+priority=20
+
+[ol7_developer_nodejs16]
+name=Oracle Linux $releasever Node.js 16 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/nodejs16/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+priority=20

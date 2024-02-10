@@ -1,0 +1,8 @@
+[ol8_spacewalk210_client]
+name=Spacewalk Client 2.10 for Oracle Linux 8 (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/spacewalk210/client/x86_64/
+baseurl=http://IP_OR_NAME/OL8/oracle-spacewalk-client-ol8-x86_64/ol8_spacewalk210_client
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

@@ -1,0 +1,9 @@
+[ol9_developer_EPEL]
+name=Oracle Linux $releasever EPEL Packages for Development ($basearch)
+#baseurl=https://yum$ociregion.$ocidomain/repo/OracleLinux/OL9/developer/EPEL/$basearch/
+baseurl=http://IP_OR_NAME/OL9/oracle-epel-ol9/ol9_developer_EPEL
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+excludepkgs=zabbix*

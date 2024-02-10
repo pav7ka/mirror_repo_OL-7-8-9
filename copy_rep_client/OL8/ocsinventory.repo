@@ -1,0 +1,8 @@
+[ocsinventory]
+name=OCS Inventory NG repository for Enterprise Linux 9 - $basearch
+#baseurl=http://rpm.ocsinventory-ng.org/enterprise/$releasever/$basearch/
+baseurl=http://IP_OR_NAME/OL8/ocsinventory/ocsinventory
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ocs
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-ocs

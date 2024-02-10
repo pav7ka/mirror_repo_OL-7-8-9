@@ -1,0 +1,13 @@
+[ol7_oracle-linux-manager210_server]
+name=Oracle Linux Manager Server 2.10 for Oracle Linux 7 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/oraclelinuxmanager210/server/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_oracle-linux-manager210_client]
+name=Oracle Linux Manager Client 2.10 for Oracle Linux 7 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/oraclelinuxmanager210/client/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

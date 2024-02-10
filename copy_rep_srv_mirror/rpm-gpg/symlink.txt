@@ -1,0 +1,15 @@
+-rw-r--r-- 1 pa pa 1627 фев  7 15:26 gpg
+-rw-r--r-- 1 pa pa 1561 июн 16  2016 nginx_signing.key
+-rw-r--r-- 1 pa pa 2484 дек 26 02:11 PGDG-RPM-GPG-KEY-RHEL
+-rw-r--r-- 1 pa pa 2454 дек 25 16:23 PGDG-RPM-GPG-KEY-RHEL7
+-rw-r--r-- 1 pa pa 1656 авг 17 12:50 RPM-GPG-KEY-EPEL-9
+-rw-r--r-- 1 pa pa 1718 сен  6  2022 RPM-GPG-KEY-ocs
+-rw-r--r-- 1 pa pa 1719 мар 30  2023 RPM-GPG-KEY-openzfs-2013
+-rw-r--r-- 1 pa pa 3486 мар 30  2023 RPM-GPG-KEY-openzfs-2022
+lrwxrwxrwx 1 pa pa   24 фев  8 11:26 RPM-GPG-KEY-openzfs-el-6 -> RPM-GPG-KEY-openzfs-2013
+lrwxrwxrwx 1 pa pa   24 фев  8 11:26 RPM-GPG-KEY-openzfs-el-7 -> RPM-GPG-KEY-openzfs-2013
+lrwxrwxrwx 1 pa pa   24 фев  8 11:26 RPM-GPG-KEY-openzfs-el-8 -> RPM-GPG-KEY-openzfs-2013
+lrwxrwxrwx 1 pa pa   24 фев  8 11:26 RPM-GPG-KEY-openzfs-el-9 -> RPM-GPG-KEY-openzfs-2022
+-rw-r--r-- 1 pa pa 6350 ноя 13 16:02 RPM-GPG-KEY-oracle
+-rw-r--r-- 1 pa pa 3163 июл  5  2022 RPM-GPG-KEY-ZABBIX-08EFA7DD
+

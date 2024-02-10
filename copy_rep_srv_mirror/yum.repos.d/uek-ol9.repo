@@ -1,0 +1,13 @@
+[ol9_UEKR7]
+name=Oracle Linux 9 UEK Release 7 ($basearch)
+baseurl=https://yum$ociregion.$ocidomain/repo/OracleLinux/OL9/UEKR7/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol9_RDMA]
+name=Oracle Linux 9 ($basearch) RDMA
+baseurl=https://yum$ociregion.$ocidomain/repo/OracleLinux/OL9/RDMA/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

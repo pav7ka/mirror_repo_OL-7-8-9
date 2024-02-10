@@ -1,0 +1,41 @@
+[ol7_gluster8]
+name=Oracle Linux $releasever Gluster 8 Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/gluster8/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_gluster6]
+name=Oracle Linux $releasever Gluster 6 Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/gluster6/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_gluster5]
+name=Oracle Linux $releasever Gluster 5 Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/gluster5/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_gluster41]
+name=Oracle Linux $releasever Gluster 4.1 Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/gluster41/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_gluster312]
+name=Oracle Linux $releasever Gluster 3.12 Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/gluster312/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol7_developer_gluster310]
+name=Oracle Linux $releasever Gluster 3.10 Packages for Development and test (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_gluster310/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

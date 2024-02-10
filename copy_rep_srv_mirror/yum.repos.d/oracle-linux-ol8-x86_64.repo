@@ -1,0 +1,113 @@
+[ol8_baseos_latest]
+name=Oracle Linux 8 BaseOS Latest (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_appstream]
+name=Oracle Linux 8 Application Stream (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_codeready_builder]
+name=Oracle Linux 8 CodeReady Builder (x86_64) - Unsupported
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/codeready/builder/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_distro_builder]
+name=Oracle Linux 8 Distro Builder (x86_64) - Unsupported
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/distro/builder/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+
+[ol8_u0_baseos_base]
+name=Oracle Linux 8 BaseOS GA (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/0/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u1_baseos_base]
+name=Oracle Linux 8.1 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/1/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u2_baseos_base]
+name=Oracle Linux 8.2 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/2/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u3_baseos_base]
+name=Oracle Linux 8.3 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/3/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u4_baseos_base]
+name=Oracle Linux 8.4 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/4/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u5_baseos_base]
+name=Oracle Linux 8.5 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/5/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u6_baseos_base]
+name=Oracle Linux 8.6 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/6/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u7_baseos_base]
+name=Oracle Linux 8.7 BaseOS (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/7/baseos/base/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_addons]
+name=Oracle Linux 8 Addons (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/addons/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_u4_security_validation]
+name=Oracle Linux $releasever Update 4 (x86_64) Security Validations
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/4/security/validation/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_MODRHCK]
+name=Latest RHCK with fixes from Oracle for Oracle Linux $releasever (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/MODRHCK/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+priority=20
+enabled=0
+
+[ol8_leapp]
+name=Oracle Linux 8 (x86_64) Leapp Upgrade Utilities
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/leapp/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

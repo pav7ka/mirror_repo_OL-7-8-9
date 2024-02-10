@@ -1,0 +1,8 @@
+[ol7_oracle_instantclient]
+name=Oracle Instant Client for Oracle Linux $releasever (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/oracle/instantclient/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-ol7-x86_64/ol7_oracle_instantclient
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

@@ -1,0 +1,13 @@
+[ol8_automation]
+name=Oracle Linux Automation Manager 1.0 based on the open source projects Ansible and AWX (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/automation/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_automation2]
+name=Oracle Linux Automation Manager 2.0 based on the open source projects Ansible and AWX (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/automation2/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

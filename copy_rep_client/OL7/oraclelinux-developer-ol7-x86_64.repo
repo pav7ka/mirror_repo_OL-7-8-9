@@ -1,0 +1,35 @@
+[ol7_developer]
+name=Oracle Linux $releasever Development Packages (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oraclelinux-developer-ol7-x86_64/ol7_developer
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_kvm_utils]
+name=Oracle Linux $releasever KVM Utilities for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/kvm/utils/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oraclelinux-developer-ol7-x86_64/ol7_developer_kvm_utils
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_UEKR5]
+name=Oracle Linux $releasever Unbreakable Enterprise Kernel Release 5  Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_UEKR5/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oraclelinux-developer-ol7-x86_64/ol7_developer_UEKR5
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_UEKR6]
+name=Developer Preview of UEK Release 6 (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/UEKR6/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oraclelinux-developer-ol7-x86_64/ol7_developer_UEKR6
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

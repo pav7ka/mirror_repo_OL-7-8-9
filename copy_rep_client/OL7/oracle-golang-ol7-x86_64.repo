@@ -1,0 +1,89 @@
+[ol7_developer_golang119]
+name=Oracle Linux $releasever Go Language 1.19 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang119/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang119
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang118]
+name=Oracle Linux $releasever Go Language 1.18 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang118/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang118
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang117]
+name=Oracle Linux $releasever Go Language 1.17 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang117/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang117
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang116]
+name=Oracle Linux $releasever Go Language 1.16 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang116/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang116
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang115]
+name=Oracle Linux $releasever Go Language 1.15 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang115/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang115
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang114]
+name=Oracle Linux $releasever Go Language 1.14 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang114/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang114
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang113]
+name=Oracle Linux $releasever Go Language 1.13 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang113/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang113
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang112]
+name=Oracle Linux $releasever Go Language 1.12 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang112/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang112
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang111]
+name=Oracle Linux $releasever Go Language 1.11 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang111/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang111
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_golang110]
+name=Oracle Linux $releasever Go Language 1.10 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/golang110/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-golang-ol7-x86_64/ol7_developer_golang110
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

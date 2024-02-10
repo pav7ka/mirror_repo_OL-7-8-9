@@ -1,0 +1,23 @@
+[ol8_MySQL80]
+name=MySQL 8.0 for Oracle Linux 8 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/MySQL80/community/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol8_MySQL80_tools_community]
+name=MySQL 8.0 Tools Community for Oracle Linux 8 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/MySQL80/tools/community/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol8_MySQL80_connectors_community]
+name=MySQL 8.0 Connectors Community for Oracle Linux 8 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/MySQL80/connectors/community/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

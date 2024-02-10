@@ -1,0 +1,35 @@
+[ol7_developer_php74]
+name=Oracle Linux $releasever PHP 7.4 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer/php74/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-php-ol7-x86_64/ol7_developer_php74
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_php72]
+name=Oracle Linux $releasever PHP 7.2 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_php72/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-php-ol7-x86_64/ol7_developer_php72
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_php71]
+name=Oracle Linux $releasever PHP 7.1 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_php71/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-php-ol7-x86_64/ol7_developer_php71
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[ol7_developer_php70]
+name=Oracle Linux $releasever PHP 7.0 Packages for Development and test (x86_64)
+#baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/developer_php70/x86_64/
+baseurl=http://IP_OR_NAME/OL7/oracle-php-ol7-x86_64/ol7_developer_php70
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+#gpgkey=http://IP_OR_NAME/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

@@ -1,0 +1,6 @@
+[ol8_kvm_appstream]
+name=Oracle Linux $releasever KVM Application Stream (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/kvm/appstream/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

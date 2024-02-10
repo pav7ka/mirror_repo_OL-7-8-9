@@ -1,0 +1,20 @@
+[ol8_developer]
+name=Oracle Linux 8 Development Packages (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/developer/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_developer_UEKR6]
+name=Developer Preview of UEK Release 6 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/developer/UEKR6/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[ol8_developer_UEKR7]
+name=Developer Preview of UEK Release 7 (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/developer/UEKR7/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0

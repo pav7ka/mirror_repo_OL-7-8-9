@@ -1,0 +1,6 @@
+[ol7_kvm_utils]
+name=Oracle Linux $releasever KVM Utilities (x86_64)
+baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/kvm/utils/x86_64/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
