@@ -8,5 +8,5 @@ P_LOG="/root/mirror/log"
 
 for VER in 16 15 14 13 12 #11 10
 do
-    wget -c -np -nv --reject="index.html*" -e robots=off -m "https://repo.postgrespro.ru/1c-$VER/" -P "$P_REPO" &> "$P_LOG/postgrespro_1c-$VER__$(date +%Y-%m-%d-%k%M%S)"
+    wget -c -np -nv --reject="index.html*" -e robots=off -m "https://repo.postgrespro.ru/1c-$VER/" -P "$P_REPO" &> "$P_LOG/postgrespro_1c-$VER"__"$(date +%Y-%m-%d-%k%M%S)"
 done
